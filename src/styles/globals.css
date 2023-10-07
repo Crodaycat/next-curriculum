@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -16,12 +18,42 @@
   }
 }
 
+html,
+body,
+#__next {
+  @apply h-full;
+}
+
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  @apply bg-secondary-contrast-400 text-primary-400;
+}
+
+main {
+  @apply flex justify-between gap-5 min-h-full;
+}
+
+hr {
+  @apply w-full text-secondary-400 my-4;
+  height: 1.5px;
+}
+
+.personal-info {
+  @apply bg-primary-contrast-400 px-11 py-13 flex flex-col items-center;
+  width: 305px;
+}
+
+.progress-bar {
+  @apply rounded-full;
+  padding: 2px;
+  border: 1px currentColor solid;
+}
+
+.progress-bar__fill {
+  @apply rounded-full;
+  height: 4px;
+  background-color: currentColor;
+}
+
+.button-primary {
+  @apply bg-primary-contrast-A700 text-primary-A700 px-2 py-1 rounded-lg;
 }
