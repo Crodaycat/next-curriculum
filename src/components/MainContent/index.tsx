@@ -53,7 +53,7 @@ export const MainContent: FC = () => (
       <Image
         src='/images/profile_picture.jpg'
         alt='Profile image'
-        className='object-contain object-top object-center'
+        className='object-contain object-center'
         width={360}
         height={480}
       />
