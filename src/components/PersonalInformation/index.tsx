@@ -35,6 +35,8 @@ export const PersonalInformation: FC = () => (
       />
 
       <Information title='Address:' information='Bello, Ant' />
+
+      <Information title='Mail:' information='lgiraldomu@gmail.com' />
     </article>
 
     <hr />

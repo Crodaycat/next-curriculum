@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import { FaEnvelope, FaGithub, FaLinkedinIn } from 'react-icons/fa';
 
 export const LinksBar: FC = () => (
   <section className='w-24 bg-primary-contrast-400 flex flex-col flex-none items-center pt-18 h-svh sticky top-0'>
@@ -20,6 +20,13 @@ export const LinksBar: FC = () => (
         target='_blank'
       >
         <FaLinkedinIn />
+      </a>
+
+      <a
+        className='bg-primary-contrast-A700 w-12 h-12 rounded-full flex justify-center items-center text-2xl'
+        href='mailto:lgiraldomu@gmail.com'
+      >
+        <FaEnvelope />
       </a>
     </div>
   </section>
