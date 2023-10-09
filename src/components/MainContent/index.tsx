@@ -31,8 +31,8 @@ export const MainContent: FC = () => (
           fields. I develop back-end solutions with Java using SpringBoot
           Framework and JavaScript using Express, for front-end experiences I
           use React, Angular, or React Native. I enjoy sharing knowledge,
-          teamwork, andmaking carpentry DIY projects. I consider myself a person
-          who loves learning new things.
+          teamwork, and making carpentry DIY projects. I consider myself a
+          person who loves learning new things.
         </p>
 
         <a
