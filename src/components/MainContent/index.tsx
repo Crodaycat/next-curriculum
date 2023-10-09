@@ -123,8 +123,8 @@ export const MainContent: FC = () => (
       <h2 className='font-bold text-3xl mb-6'>Education</h2>
 
       <p className='w-full max-w-lg text-secondary-400 text-center mb-12'>
-        I enjoy sharing knowledge, teamwork, andmaking carpentry DIY projects. I
-        consider myself a person who loves learning new things.
+        I enjoy sharing knowledge, teamwork, and making carpentry DIY projects.
+        I consider myself a person who loves learning new things.
       </p>
 
       <div className='w-full flex flex-col bg-primary-contrast-400 px-9 py-12'>
