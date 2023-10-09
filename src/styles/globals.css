@@ -33,13 +33,13 @@ main {
 }
 
 hr {
-  @apply w-full text-secondary-400 my-4;
+  @apply w-full text-secondary-contrast-400 my-4;
   height: 1.5px;
 }
 
 .personal-info {
-  @apply bg-primary-contrast-400 px-11 py-13 flex flex-col items-center;
-  width: 305px;
+  max-width: 305px;
+  @apply bg-primary-contrast-400 px-11 py-13 flex flex-col flex-none items-center;
 }
 
 .progress-bar {
@@ -56,4 +56,12 @@ hr {
 
 .button-primary {
   @apply bg-primary-contrast-A700 text-primary-A700 px-2 py-1 rounded-lg;
+}
+
+.swiper-slide {
+  width: auto !important;
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  @apply bg-primary-A400;
 }
