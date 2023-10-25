@@ -245,7 +245,7 @@ export const MainContent: FC = () => (
           companyName='Ingeni@ - UdeA'
           companyLogo='/images/ingenia_udea_logo.jpg'
           position='VIDEO GAMES DEVELOPER'
-          timePeriod='March 2028 - July 2018'
+          timePeriod='March 2018 - July 2018'
           mainAchievement='Quick adaptation to a big existing project and managed it to be finally published.'
         >
           <ul>
